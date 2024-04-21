@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="603.0" prefWidth="622.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.snakes.HelloController">
+   <children>
+      <Label fx:id="l1" layoutX="159.0" layoutY="466.0" prefHeight="42.0" prefWidth="329.0" text="Сейчас ходят нолики" textFill="#838383">
+         <font>
+            <Font name="Impact" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="b1" layoutX="126.0" layoutY="111.0" mnemonicParsing="false" onAction="#onb1Click" onMouseClicked="#onb1Click" prefHeight="110.0" prefWidth="110.0">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Button>
+      <Button fx:id="b2" layoutX="242.0" layoutY="111.0" mnemonicParsing="false" onAction="#onb2Click" onMouseClicked="#onb2Click" prefHeight="110.0" prefWidth="110.0">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Button>
+      <Button fx:id="b3" layoutX="358.0" layoutY="111.0" mnemonicParsing="false" onAction="#onb3Click" onMouseClicked="#onb3Click" prefHeight="110.0" prefWidth="110.0">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Button>
+      <Button fx:id="b4" layoutX="126.0" layoutY="227.0" mnemonicParsing="false" onAction="#onb4Click" onMouseClicked="#onb4Click" prefHeight="110.0" prefWidth="110.0">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Button>
+      <Button fx:id="b5" layoutX="242.0" layoutY="227.0" mnemonicParsing="false" onAction="#onb5Click" onMouseClicked="#onb5Click" prefHeight="110.0" prefWidth="110.0">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Button>
+      <Button fx:id="b6" layoutX="358.0" layoutY="227.0" mnemonicParsing="false" onAction="#onb6Click" onMouseClicked="#onb6Click" prefHeight="110.0" prefWidth="110.0">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Button>
+      <Button fx:id="b7" layoutX="126.0" layoutY="344.0" mnemonicParsing="false" onAction="#onb7Click" onMouseClicked="#onb7Click" prefHeight="110.0" prefWidth="110.0">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Button>
+      <Button fx:id="b8" layoutX="242.0" layoutY="344.0" mnemonicParsing="false" onAction="#onb8Click" onMouseClicked="#onb8Click" prefHeight="110.0" prefWidth="110.0">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Button>
+      <Button fx:id="b9" layoutX="358.0" layoutY="344.0" mnemonicParsing="false" onAction="#onb9Click" onMouseClicked="#onb9Click" prefHeight="110.0" prefWidth="110.0">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Button>
+      <Label layoutX="188.0" layoutY="61.0" text="Крестики-Нолики" textFill="#bcbcbc">
+         <font>
+            <Font name="Impact" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
